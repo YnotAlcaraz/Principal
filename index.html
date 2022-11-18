@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>About me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="img/Portal.png" type="image/x-icon">
+    <link rel='preload' type='text/css' media='screen' href='Estilo.css' as="style">
+    <link rel="stylesheet" href="Estilo.css">
+    <script src="JavaScript/Sliders.js"></script>
+</head>
+<body>
+    <section id="header">
+        <nav id="menu">
+            <ul>
+                <li><a href="mailto:a19490902@itmexicali.edu.mx">Contact me</a></li>
+            </ul>
+        </nav>
+    </section><!--header-->
+
+    <div id="ImagenPrincipal">
+        <img src="img/Main/Fondo.jpg" width="100%">
+        <div id="TituloPrincipal">
+            <h1>Information about myself</h1>
+        </div><!--TituloPrincipal-->
+    </div><!--ImagenPrincipal-->
+
+    <div class="ContenedorPrincipal">
+        <div class="Negro">
+            <div id="MiImagen">
+                <img src="img/Main/MiFoto.jpg" alt="Yo" width="100%" id="MiFoto" onclick="alert('Hola, ese soy yo :D')">
+            </div>
+            <div id="QuienSoy2">
+                <h2>Hello! Thanks for visiting my page!</h2>
+                <hr>
+                <br>
+                My name is Ynot Alcaraz. I'm currently studying my seventh semester of Computer Systems Engineering at Instituto Tecnológico de Mexicali.
+                <br>
+                <br>
+                <br>
+                I like to learn new things, especially if they help me improve myself on a daily basis.
+            </div><!--QuienSoy2-->
+        </div><!--QuienSoy-->
+    </div><!--ContenedorPrincipal-->
+
+    <div class="ContenedorSecundario">
+        <div class="Blanco">
+            <div id="TextoHobbies">
+                <h2>My hobbies</h2>
+                <hr>
+                <br>
+                I usually spend my spare time distracting myself doing the things I like, whether it be playing videogames, listenig to music, 3D modeling or even all three at the same time.
+                <br>
+                <br>
+                The type of videogames or music I listen to varies a lot and I don't stick to just one type. But it's not a bad thing, I feel that it helps me find new things I wouldn't try otherwise.
+            </div><!--TextoHobbies-->
+            <div id="Lista">
+                <h2>You can find me here:</h2>
+                <hr>
+                <br>
+                <ul id="Cuentas">
+                    <li id="Artstation"><a href="https://www.artstation.com/flagyov"><img src="img/Main/Artstation.png" class="ImagenCh">Artstation</a></li>
+                    <li id="DeviantArt"><a href="https://www.deviantart.com/flagyov"><img src="img/Main/DeviantArt.png" class="ImagenCh">DeviantArt</a></li>
+                    <li id="Spotify"><a href="https://open.spotify.com/user/rruyukjos464rgfssdyqs4yk2"><img src="img/Main/Spotify.png" class="ImagenCh">Spotify</a></li>
+                    <li id="Steam"><a href="https://steamcommunity.com/id/flagyov"><img src="img/Main/Steam.png" class="ImagenCh">Steam</a></li>
+                </ul><!--Cuentas-->
+            </div><!--Lista-->
+        </div><!--Blanco-->
+    </div><!--ContenedorSecundario-->
+
+    <div class="ContenedorPrincipal">
+        <div class="Negro2">
+            <div class="Show">
+                <h2>My favorite movies</h2>
+                <hr>
+                <br>
+                <img id="PeliculaImagen" src="img/Peliculas/imagen1.png" height="500px" name="PeliculaImagen">
+                <h2 id="NombrePelicula">Inception</h2>
+                <button id="anterior" onclick="anteriorPelicula()"><img src="img/Main/L.webp" width="30px"></button>
+                <button id="siguiente" onclick="siguientePelicula()"><img src="img/Main/R.webp" width="30px"></button>
+            </div><!--Show-->
+        </div><!--Negro-->
+    </div><!--ContenedorPrincipal-->
+
+    <div class="ContenedorSecundario">
+        <div class="Blanco2">
+            <div class="Show">
+                <h2>My favorite anime</h2>
+                <hr>
+                <br>
+                <img id="AnimeImagen" src="img/Anime/imagen1.jpg" height="500px" name="AnimeImagen">
+                <h2 id="NombreAnime">Girls Last Tour</h2>
+                <button id="anterior" onclick="anteriorPelicula()"><img src="img/Main/L.webp" width="30px"></button>
+                <button id="siguiente" onclick="siguientePelicula()"><img src="img/Main/R.webp" width="30px"></button>
+            </div><!--Show-->
+        </div><!--Blanco-->
+    </div><!--ContenedorSecundario-->
+
+    <div class="ContenedorPrincipal">
+        <div class="Negro2">
+            <div class="Show">
+                <h2>My favorite videogames</h2>
+                <hr>
+                <br>
+                <img id="VideojuegoImagen" src="img/VIdeojuego/imagen1.jpg" height="500px" name="VideojuegoImagen">
+                <h2 id="NombreVideojuego">Portal 2</h2>
+                <button id="anterior" onclick="anteriorPelicula()"><img src="img/Main/L.webp" width="30px"></button>
+                <button id="siguiente" onclick="siguientePelicula()"><img src="img/Main/R.webp" width="30px"></button>
+            </div><!--Show-->
+        </div><!--Negro2-->
+    </div><!--ContenedorPrincipal-->
+    <div class="ContenedorSecundario">
+        <div class="Blanco2">
+            <div class="Show">
+                <h2>Some of my projects I made on Blender</h2>
+                <hr>
+                <br>
+                <img id="RenderImagen" src="img/Render/imagen1.png" height="500px" name="RenderImagen">
+                <br><br><br>
+                <button id="anterior" onclick="anteriorPelicula()"><img src="img/Main/L.webp" width="30px"></button>
+                <button id="siguiente" onclick="siguientePelicula()"><img src="img/Main/R.webp" width="30px"></button>
+            </div>
+        </div>
+    </div>
+    <section id="footer">
+        Ynot Alcaraz - 2022
+        <br>
+        In case of any issues with this page, please contact me at: 
+        <br>
+        <a href="mailto:a19490902@itmexicali.edu.mx">a19490902@itmexicali.edu.mx</a>
+    </section>
+</body>
+</html>
