@@ -1,7 +1,7 @@
 <h1 align="center">Webpage about myself</h1>
 In this page I talk about myself and the things I like to do.
 <br>
-I decided to stick to a simple color palette, consisting of black, white and blue, as this is one of my favorite combinations and probable the one I use the most.
+I decided to stick to a simple color palette, consisting of black, white and blue, as this is one of my favorite combinations and probably the one I use the most.
 <br>
 If you prefer, you can read the <a href="https://github.com/YnotAlcaraz/Principal/blob/main/README-ESP.md">spanish version</a> of this README.
 <br>
