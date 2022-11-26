@@ -6,7 +6,7 @@ I decided to stick to a simple color palette, consisting of black, white and blu
 If you prefer, you can read the <a href="https://github.com/YnotAlcaraz/Principal/blob/main/README-ESP.md">spanish version</a> of this README.
 <br>
 <hr>
-This webpage consist of several blocks:
+This webpage consists of several blocks:
 <ul>
     <li><b>Welcome</b></li>
     <li><b>Basic information about myself</b></li>
